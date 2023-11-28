@@ -11,8 +11,9 @@ app.use(express.urlencoded({ extended: false }));
 
 const SAVED_FRIENDS = [
   { name: 'Beach Cat', picture: 'https://http.cat/images/301.jpg' },
-  { name: 'Frisbee Dog', picture: 'https://httpstatusdogs.com/img/100.jpg' },
-  { name: 'Wiener Dog', picture: 'https://httpstatusdogs.com/img/405.jpg' },
+  { name: 'Shy Cat', picture: 'https://http.cat/images/404.jpg' },
+  { name: 'Robo Kitty', picture: 'https://http.cat/images/500.jpg' },
+  { name: 'Pup', picture: 'https://images.dog.ceo/breeds/terrier-lakeland/n02095570_763.jpg'}
 ];
 
 app.get('/api/friends', (req, res) => {
